@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CalculatorModule } from './calculator';
 import { TestModule } from './test';
+import { DummyModule } from './dummy';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { TestModule } from './test';
   imports: [
     BrowserModule,
     CalculatorModule,
-    TestModule
+    TestModule,
+    DummyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
