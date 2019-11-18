@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CalculatorModule } from './calculator';
+import { TestModule } from './test';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { CalculatorModule } from './calculator';
   ],
   imports: [
     BrowserModule,
-    CalculatorModule
+    CalculatorModule,
+    TestModule
   ],
   providers: [],
   bootstrap: [AppComponent]
